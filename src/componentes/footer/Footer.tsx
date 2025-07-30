@@ -2,6 +2,7 @@ import { FacebookLogo, InstagramLogo, LinkedinLogo } from '@phosphor-icons/react
 
 function Footer() {
 
+    // eslint-disable-next-line prefer-const
     let data = new Date().getFullYear()
 
     return (
