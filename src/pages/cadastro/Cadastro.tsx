@@ -1,6 +1,6 @@
-import { useState, useEffect, ChangeEvent, FormEvent } from 'react'
+import { useState, useEffect, type ChangeEvent, type FormEvent } from 'react'
 import { useNavigate } from 'react-router-dom'
-import Usuario from "../../models/Usuario"
+import type Usuario from "../../models/Usuario"
 import { cadastrarUsuario } from '../../services/Service'
 import './Cadastro.css'
 import { RotatingLines } from 'react-loader-spinner'
